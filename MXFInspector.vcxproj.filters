@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="MXF">
+      <UniqueIdentifier>{a23e8b19-cbfa-4169-9f7f-500f2bfd1f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HexEdit">
+      <UniqueIdentifier>{51b78f78-0391-4e19-9cfb-e466da87d052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Goto">
+      <UniqueIdentifier>{6ad0eaf1-cdc9-465a-8729-ff4bdc9f7bb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MXFInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MXFInspectorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MXFLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitterControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AESDecoder.cpp">
+      <Filter>MXF</Filter>
+    </ClCompile>
+    <ClCompile Include="MXFTypes.cpp">
+      <Filter>MXF</Filter>
+    </ClCompile>
+    <ClCompile Include="MXFUtils.cpp">
+      <Filter>MXF</Filter>
+    </ClCompile>
+    <ClCompile Include="HexDumpDlg.cpp">
+      <Filter>HexEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="hexeditbase.cpp">
+      <Filter>HexEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="GoToDlg.cpp">
+      <Filter>Goto</Filter>
+    </ClCompile>
+    <ClCompile Include="HexEdit.cpp">
+      <Filter>Goto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MXFInspectorDlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MXFInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MXFLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitterControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AESDecoder.h">
+      <Filter>MXF</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>MXF</Filter>
+    </ClInclude>
+    <ClInclude Include="MXFTypes.h">
+      <Filter>MXF</Filter>
+    </ClInclude>
+    <ClInclude Include="MXFUtils.h">
+      <Filter>MXF</Filter>
+    </ClInclude>
+    <ClInclude Include="HexDumpDlg.h">
+      <Filter>HexEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="hexeditbase.h">
+      <Filter>HexEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="GoToDlg.h">
+      <Filter>Goto</Filter>
+    </ClInclude>
+    <ClInclude Include="HexEdit.h">
+      <Filter>Goto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MXFInspector.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MXFInspector.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MXFInspector.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
